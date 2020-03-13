@@ -15,7 +15,7 @@ public class Exercicio_07 {
 		
 		System.out.println("O Dobro da área do quadrado é: "+(quadrado*quadrado)*2);
 		
-		
+		System.out.println("consegui novamente");
 	}
 
 }
