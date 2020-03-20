@@ -13,9 +13,14 @@ public class Exercicio_07 {
 		
 		double quadrado = scan.nextDouble();
 		
-		System.out.println("O Dobro da área do quadrado é: "+(quadrado*quadrado)*2);
+//		System.out.println("O Dobro da área do quadrado é: "+(quadrado*quadrado)*2);
 		
-		System.out.println("consegui novamente");
+		double area = Math.pow (quadrado, 2); //math.pow primeiro vem a base depois o expoente
+		
+		System.out.println("A área do quadrado é: "+area);
+		System.out.println("O Dobro da área do quadrado é: "+(area*2));
+		
+		
 	}
 
 }

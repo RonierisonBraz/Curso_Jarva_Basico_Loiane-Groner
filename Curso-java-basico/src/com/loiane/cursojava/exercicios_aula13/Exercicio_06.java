@@ -15,6 +15,10 @@ public class Exercicio_06 {
 		
 		System.out.println("A área do Circulo é "+(raio*raio)*3.14);
 		
+		double area = Math.PI * Math.pow(raio, 2);
+		
+		System.out.println("segunda maneira de calcular a área do circulo é: "+area);
+		
 	}
 
 }

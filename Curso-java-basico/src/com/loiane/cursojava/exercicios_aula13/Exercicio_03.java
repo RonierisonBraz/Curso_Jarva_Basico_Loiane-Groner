@@ -10,7 +10,7 @@ public class Exercicio_03 {
 		Scanner scan = new Scanner(System.in);
 		
 		
-		System.out.println("Digite dois números");
+		System.out.println("Digite dois números inteiros: ");
 		int numero1 = scan.nextInt();
 		int numero2 = scan.nextInt();
 		
