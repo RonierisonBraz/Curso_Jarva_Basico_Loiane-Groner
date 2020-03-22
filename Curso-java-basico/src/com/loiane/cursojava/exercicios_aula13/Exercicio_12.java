@@ -11,7 +11,7 @@ public class Exercicio_12 {
 		
 		double altura = scan.nextDouble();
 		
-		System.out.println("Seu Peso ideal é : "+((72.7*altura)-58));
+		System.out.println("Seu Peso ideal é : "+((72.7 * altura) -58));
 
 	}
 
