@@ -7,6 +7,7 @@ public class Teste {
 		MinhaThread t1 = new MinhaThread("#1");
 		MinhaThread t2 = new MinhaThread("#2");
 		
+		System.out.println("Pausando a Thread #1");
 		t1.suspend();
 		
 		try {
@@ -15,8 +16,10 @@ public class Teste {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		System.out.println("Pausando a Thread #2");
 		t2.suspend();
 		
+		System.out.println("Resumindo a Thread #1");
 		t1.resume();
 		
 		try {
@@ -25,8 +28,10 @@ public class Teste {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		t2.resume();
 		
+		System.out.println("Resumindo a Thread #2");
+		t2.resume();
+		System.out.println("Terminando a Thread #2");
 		t2.stop();
 	}
 
